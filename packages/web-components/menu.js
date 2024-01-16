@@ -19,6 +19,7 @@ export class Menu extends LitElement {
       list-style: none;
       padding: 0;
       margin: 0;
+      font-size: 1.5rem;
     }
   `;
 
@@ -27,6 +28,7 @@ export class Menu extends LitElement {
       <style>
         .container {
           flex-direction: ${this.vertical ? "column" : "row"};
+          color: ${this.color};
         }
       </style>
       <ul class="container">
