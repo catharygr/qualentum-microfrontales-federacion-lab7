@@ -1,13 +1,16 @@
 import "./index.css";
 import { header } from "header/Header";
+const app = document.getElementById("app");
 
-document.getElementById("app").innerHTML = `
-<div class="container">
+const content = document.createElement("div");
+content.classList.add("container");
+content.innerHTML = `
 <div>Name: host</div>
 <div>Framework: vanilla</div>
 <div>Language: JavaScript</div>
 <div>CSS: Empty CSS</div>
-</div>
 `;
 
+header();
+app.appendChild(content);
 header();
