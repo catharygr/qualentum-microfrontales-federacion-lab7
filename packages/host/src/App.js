@@ -13,4 +13,3 @@ content.innerHTML = `
 
 header();
 app.appendChild(content);
-header();
