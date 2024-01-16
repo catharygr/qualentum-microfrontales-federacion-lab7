@@ -1,5 +1,6 @@
 import "./index.css";
 import { Menu } from "../../web-components/menu.js";
+import * as moment from "moment";
 
 export const header = () => {
   const app = document.getElementById("app");
