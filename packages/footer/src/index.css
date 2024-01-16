@@ -8,3 +8,12 @@ body {
   max-width: 800px;
   margin-top: 20px;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightslategray;
+  color: green;
+  padding: 1rem 2rem;
+}

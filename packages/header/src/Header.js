@@ -9,7 +9,7 @@ export const header = () => {
 
   // Atributos de menu-global: vertical que seria un (boleano) y color que seria un string
   header.innerHTML = `
-<menu-global color="yellow"></menu-global>
+<menu-global color=""></menu-global>
 <p>${moment().format("DD/MM/YYYY")}</p>
     `;
   app.appendChild(header);

@@ -9,7 +9,7 @@ export const footer = () => {
 
   // Atributos de menu-global: vertical que seria un (boleano) y color que seria un string
   footer.innerHTML = `
-<menu-global vertical color="black"></menu-global>
+<menu-global vertical color="yellow"></menu-global>
 <p>${moment().format("DD/MM/YYYY")}</p>
     `;
   app.appendChild(footer);
