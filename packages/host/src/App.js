@@ -1,4 +1,5 @@
 import "./index.css";
+import { header } from "header/Header";
 
 document.getElementById("app").innerHTML = `
 <div class="container">
@@ -8,3 +9,4 @@ document.getElementById("app").innerHTML = `
   <div>CSS: Empty CSS</div>
 </div>
 `;
+header();

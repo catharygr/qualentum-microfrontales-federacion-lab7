@@ -1,5 +1,5 @@
 import "./index.css";
-import { Menu } from "../../web-components/menu.js";
+import { header } from "./Header.js";
 
 document.getElementById("app").innerHTML = `
 <div class="container">
@@ -10,3 +10,5 @@ document.getElementById("app").innerHTML = `
   <menu-global></menu-global>
 </div>
 `;
+
+header();
