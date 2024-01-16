@@ -5,8 +5,10 @@ export const header = () => {
   const app = document.getElementById("app");
   const header = document.createElement("div");
   header.classList.add("header");
+
+  // Atributos de menu-global: vertical que seria un (boleano) y color que seria un string
   header.innerHTML = `
-<menu-global vertical></menu-global>
+<menu-global></menu-global>
 <p>Fecha</p>
     `;
   app.appendChild(header);

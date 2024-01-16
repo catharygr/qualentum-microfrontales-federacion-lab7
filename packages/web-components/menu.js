@@ -4,7 +4,7 @@ export class Menu extends LitElement {
   constructor() {
     super();
     this.color = "black";
-    this.vertical = true;
+    this.vertical = false;
   }
 
   static properties = {
@@ -15,7 +15,6 @@ export class Menu extends LitElement {
   static styles = css`
     .container {
       display: flex;
-      flex-direction: ${this.vertical ? css`column` : css`row`};
       gap: 1rem;
       list-style: none;
       padding: 0;
@@ -25,6 +24,11 @@ export class Menu extends LitElement {
 
   render() {
     return html`
+      <style>
+        .container {
+          flex-direction: ${this.vertical ? "column" : "row"};
+        }
+      </style>
       <ul class="container">
         <li>Home</li>
         <li>About</li>
