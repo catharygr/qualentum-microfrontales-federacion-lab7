@@ -6,7 +6,7 @@ export const header = () => {
   const header = document.createElement("div");
   header.classList.add("header");
   header.innerHTML = `
-<menu-global></menu-global>
+<menu-global vertical></menu-global>
 <p>Fecha</p>
     `;
   app.appendChild(header);
