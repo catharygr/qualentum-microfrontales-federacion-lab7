@@ -7,7 +7,6 @@ document.getElementById("app").innerHTML = `
   <div>Framework: vanilla</div>
   <div>Language: JavaScript</div>
   <div>CSS: Empty CSS</div>
-  <menu-global></menu-global>
 </div>
 `;
 
