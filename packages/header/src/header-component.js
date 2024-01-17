@@ -1,4 +1,6 @@
 import { LitElement, html, css } from "lit";
+import * as moment from "moment";
+import { Menu } from "../../web-components/menu.js";
 
 export class HeaderComponent extends LitElement {
   constructor() {
