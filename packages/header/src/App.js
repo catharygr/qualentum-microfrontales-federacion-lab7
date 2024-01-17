@@ -2,7 +2,7 @@ import "./index.css";
 import { header } from "./Header.js";
 
 document.getElementById("app").innerHTML = `
-<div class="container">
+<div class="container-header">
   <div>Name: header</div>
   <div>Framework: vanilla</div>
   <div>Language: JavaScript</div>

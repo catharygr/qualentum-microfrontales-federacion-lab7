@@ -49,7 +49,10 @@ module.exports = (_, argv) => ({
       },
       exposes: {},
       shared: {
-        ...deps,
+        moment: {
+          singleton: false,
+          requiredVersion: deps.moment,
+        },
       },
     }),
     new HtmlWebPackPlugin({

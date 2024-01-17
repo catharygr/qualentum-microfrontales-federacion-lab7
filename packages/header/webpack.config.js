@@ -48,7 +48,10 @@ module.exports = (_, argv) => ({
         "./Header": "./src/Header",
       },
       shared: {
-        ...deps,
+        moment: {
+          singleton: false,
+          requiredVersion: deps.moment,
+        },
       },
     }),
     new HtmlWebPackPlugin({

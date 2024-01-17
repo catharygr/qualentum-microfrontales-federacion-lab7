@@ -2,7 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+.container-header {
   font-size: 3rem;
   margin: auto;
   max-width: 800px;
