@@ -11,10 +11,12 @@ body {
 
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: lightslategray;
   color: black;
   padding: 1rem 2rem;
   font-weight: 900;
+  gap: 1.5rem;
 }
