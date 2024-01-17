@@ -48,7 +48,10 @@ module.exports = (_, argv) => ({
         "./Footer": "./src/Footer",
       },
       shared: {
-        ...deps,
+        moment: {
+          singleton: false,
+          requiredVersion: deps.moment,
+        },
       },
     }),
     new HtmlWebPackPlugin({
