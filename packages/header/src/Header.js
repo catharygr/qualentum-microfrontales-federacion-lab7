@@ -4,7 +4,7 @@ import * as moment from "moment";
 
 export const header = () => {
   const app = document.getElementById("app");
-  const header = document.createElement("div");
+  const header = document.createElement("header");
   header.classList.add("header");
 
   // Atributos de menu-global: vertical que seria un (boleano) y color que seria un string

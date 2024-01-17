@@ -4,7 +4,7 @@ import * as moment from "moment";
 
 export const footer = () => {
   const app = document.getElementById("app");
-  const footer = document.createElement("div");
+  const footer = document.createElement("footer");
   footer.classList.add("footer");
 
   // Atributos de menu-global: vertical que seria un (boleano) y color que seria un string
