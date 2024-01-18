@@ -1,6 +1,6 @@
 import { LitElement, html, css } from "lit";
 import * as moment from "moment";
-import { Menu } from "../../web-components/menu.js";
+import "../../web-components/menu.js";
 
 export class HeaderComponent extends LitElement {
   constructor() {
@@ -27,5 +27,6 @@ export class HeaderComponent extends LitElement {
     `;
   }
 }
-
-window.customElements.define("header-component", HeaderComponent);
+if (!window.customElements.get("header-component")) {
+  window.customElements.define("header-component", HeaderComponent);
+}

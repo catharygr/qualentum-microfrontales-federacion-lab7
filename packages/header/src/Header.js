@@ -1,5 +1,5 @@
 import "./index.css";
-import { Menu } from "../../web-components/menu.js";
+import "./header-component.js";
 import * as moment from "moment";
 
 export const header = () => {
