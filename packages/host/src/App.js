@@ -8,7 +8,7 @@ customElements.define("footer-component", Footer);
 
 document.getElementById("app").innerHTML = `
 <header-component></header-component>
-<div class="container">
+<div class="container-host">
   <div>Name: host</div>
   <div>Framework: vanilla</div>
   <div>Language: JavaScript</div>
