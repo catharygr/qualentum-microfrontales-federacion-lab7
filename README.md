@@ -6,3 +6,4 @@
 a fecha la he configurado utilizando la librería moment.
 - En la webpack.config de header y footer en el plugin ModuleFederationPlugin he configurado exposes y shared para la         federación y para compartir la librería moment.
 - En el webpack.config de host he configurado los remotes para la federación y shared para la librería moment.
+
