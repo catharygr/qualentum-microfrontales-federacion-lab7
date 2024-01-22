@@ -7,7 +7,31 @@ export class Footer extends LitElement {
   }
 
   static styles = css`
-  
+  .footer {
+    background-color: #efefef; 
+    overflow: hidden;
+  }
+  .footer ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+  }
+  .footer li { 
+    float: left;
+  }
+  .footer li a {
+     display: block; 
+     color: #333333; 
+     text-align: center; 
+     padding: 14px 16px; 
+     text-decoration: none;
+  }
+  .footer .date { 
+    display: block; 
+    color: #333333; 
+    text-align: center; 
+    padding: 14px 16px;
+  `;
 
   render() {
     return html`
